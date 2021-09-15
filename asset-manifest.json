@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/demoBP/static/css/main.3d7aecb1.chunk.css",
+    "main.js": "/demoBP/static/js/main.7c794721.chunk.js",
+    "main.js.map": "/demoBP/static/js/main.7c794721.chunk.js.map",
+    "runtime-main.js": "/demoBP/static/js/runtime-main.91fa7ad0.js",
+    "runtime-main.js.map": "/demoBP/static/js/runtime-main.91fa7ad0.js.map",
+    "static/css/2.a95be28f.chunk.css": "/demoBP/static/css/2.a95be28f.chunk.css",
+    "static/js/2.d27bc562.chunk.js": "/demoBP/static/js/2.d27bc562.chunk.js",
+    "static/js/2.d27bc562.chunk.js.map": "/demoBP/static/js/2.d27bc562.chunk.js.map",
+    "static/js/3.17f69bbe.chunk.js": "/demoBP/static/js/3.17f69bbe.chunk.js",
+    "static/js/3.17f69bbe.chunk.js.map": "/demoBP/static/js/3.17f69bbe.chunk.js.map",
+    "index.html": "/demoBP/index.html",
+    "static/css/2.a95be28f.chunk.css.map": "/demoBP/static/css/2.a95be28f.chunk.css.map",
+    "static/css/main.3d7aecb1.chunk.css.map": "/demoBP/static/css/main.3d7aecb1.chunk.css.map",
+    "static/js/2.d27bc562.chunk.js.LICENSE.txt": "/demoBP/static/js/2.d27bc562.chunk.js.LICENSE.txt",
+    "static/media/rocket.8412632f.png": "/demoBP/static/media/rocket.8412632f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.91fa7ad0.js",
+    "static/css/2.a95be28f.chunk.css",
+    "static/js/2.d27bc562.chunk.js",
+    "static/css/main.3d7aecb1.chunk.css",
+    "static/js/main.7c794721.chunk.js"
+  ]
+}
