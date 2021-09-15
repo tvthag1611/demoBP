@@ -1,0 +1,91 @@
+.sidebar {
+    width: 420px;
+    min-height: 100vh;
+    padding-left: 100px;
+    background-color: #110212;
+    z-index: 20;
+    display: block;
+    @media (max-width: 768px) {
+        height: 100vh;
+        overflow-y: scroll;
+        position: fixed;
+        width: 312px;
+        padding-left: 48px;
+        top: 0;
+        left: 0;
+    }
+
+    @media (max-width: 600px) {
+        width: 288px;
+        padding-left: 24px;
+    }
+
+    .ant-menu.ant-menu-dark, .ant-menu-dark .ant-menu-inline.ant-menu-sub {
+        background-color: #110212;
+    }
+
+    .ant-menu-inline > .ant-menu-item , .ant-menu-sub.ant-menu-inline > .ant-menu-item{
+        height: 52px;
+        line-height: 52px;
+    }
+
+    .ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected {
+        background-color: #8E126B;
+        border-image-source: 4px solid linear-gradient(297.94deg, #FC2A67 5.45%, #FFA242 122.26%);
+    }
+
+    .ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        height: 100%;
+        width: 4px;
+        border-radius: 12px;
+        background: linear-gradient(to right, red, orange);
+    }
+
+    .logoBitplay {
+        padding: 26px 0px 66px 0px;
+        @media (max-width: 768px) {
+            display: none;
+        }
+    }
+
+    .closeSidebar {
+        display: none;
+        cursor: pointer;
+        @media (max-width: 768px) {
+            display: block;
+            margin: 26px 0px 66px 0px;
+        }
+
+        @media (max-width: 600px) {
+            margin: 20px 0px 46px 0px;
+        }
+    }
+}
+
+.sidebar-responsive {
+    display: none;
+    height: 72px;
+    width: 100%;
+    background: radial-gradient(21.81% 304.56% at 96.98% -169.02%, rgba(255, 79, 23, 0.2) 0%, rgba(255, 107, 0, 0) 100%), linear-gradient(180deg, #1F0121 0%, #1C011E 196.2%);
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    .sidebar-btn {
+        position: absolute;
+        left: 48px;
+        cursor: pointer;
+        @media (max-width: 600px) {
+            left: 24px;
+        }
+    }
+    @media (max-width: 768px) {
+        display: flex;
+    }
+}
+
+.sidebar::-webkit-scrollbar {
+    display: none;
+}
